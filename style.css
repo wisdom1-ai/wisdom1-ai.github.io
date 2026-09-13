@@ -1,414 +1,60 @@
-body {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: Arial;
-}
-
-h1 {
-    font-size: 50px;
-}
-nav {
-    background-color: white;
-    padding: 15px;
-}
-
-nav a {
-    margin: 20px;
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-}
-section {
-    padding: 40px;
-    margin: 30px;
-}
-button {
-    background-color: white;
-    color: black;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 8px;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: gray;
-}
-img {
-    border-radius: 50%;
-    margin: 20px;
-}
-#contact {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-#contact form {
-    max-width: 500px;
-    margin: auto;
-}
-
-#contact input,
-#contact textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0 15px;
+/* =========================
+   WISDOM TECH - MAIN STYLE
+   ========================= */
+* {
     box-sizing: border-box;
-}
-
-#contact textarea {
-    height: 120px;
-}
-
-#contact button {
-    padding: 12px 25px;
-    border: none;
-    cursor: pointer;
-}
-#projects {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.project {
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-}
-
-.project h3 {
-    margin-bottom: 10px;
-}
-#skills {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.skill {
-    width: 200px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-}
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    padding: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-@media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-    }
-
-    .skill {
-        width: 100%;
-        max-width: 300px;
-    }
-
-    #contact {
-        padding: 30px 15px;
-    }
-}
-button {
-    background: #222;
-    color: white;
-    border-radius: 6px;
-}
-
-button:hover {
-    background: #444;
 }
 html {
     scroll-behavior: smooth;
 }
-#home {
-    padding: 100px 20px;
-    text-align: center;
-}
-
-#home h1 {
-    font-size: 40px;
-    margin-bottom: 15px;
-}
-
-#home p {
-    font-size: 18px;
-    margin-bottom: 25px;
-}
-#home button {
-    padding: 12px 25px;
-    font-size: 16px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-#home button:hover {
-    transform: scale(1.05);
-}
-section {
-    margin-bottom: 20px;
-}
-footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-}
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
+    background: #0b0b0b;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
-#home img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-<img src="profile.jpg" alt="My Picture">
-#about {
-    background: #f9f9f9;
-    border-radius: 10px;
-}
-.skill:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-}
-.project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-}
-#contact input:focus,
-#contact textarea:focus {
-    outline: 2px solid #222;
-}
+/* =========================
+   NAVIGATION
+   ========================= */
 nav {
-    background: #222;
-}
-
-nav a {
-    color: white;
-}
-
-nav a:hover {
-    color: #ddd;
-}
-.skill {
-    width: 200px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-.project {
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-}
-footer {
-    text-align: center;
-    padding: 25px;
-    margin-top: 20px;
-    background: #222;
-    color: white;
-}
-.contact-buttons {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin: 25px 0 35px;
-    flex-wrap: wrap;
-}
-
-.contact-buttons a {
-    display: inline-block;
-    padding: 12px 20px;
-    background: #222;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.contact-buttons a:hover {
-    background: #444;
-    transform: translateY(-3px);
-}
-#contact {
-    background: #0b0b0b;
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
-}
-#contact input,
-#contact textarea {
-    background: #151515;
-    color: white;
-    border: 1px solid #444;
-}
-.contact-buttons a {
-    background: #e50914;
-    border: 1px solid #ff1a1a;
-}
-
-.contact-buttons a:hover {
-    background: #b00000;
-    box-shadow: 0 0 15px #e50914;
-    transform: translateY(-3px);
-}
-#contact input,
-#contact textarea {
-    border: 1px solid #444;
-    border-radius: 8px;
-    background: #151515;
-    color: white;
-    transition: 0.3s;
-}
-
-#contact input::placeholder,
-#contact textarea::placeholder {
-    color: #999;
-}
-
-#contact input:focus,
-#contact textarea:focus {
-    border-color: #e50914;
-    outline: none;
-    box-shadow: 0 0 8px rgba(229, 9, 20, 0.4);
-}
-
-#contact button {
-    background: #e50914;
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-#contact button:hover {
-    background: #b00000;
-    transform: translateY(-2px);
-    box-shadow: 0 0 15px rgba(229, 9, 20, 0.5);
-}
-#about {
-    background: #0f0f0f;
-    color: white;
-    border-radius: 0;
-}
-
-#about h2 {
-    color: #e50914;
-}
-#skills {
-    background: #0b0b0b;
-    color: white;
-}
-
-#skills h2 {
-    color: #e50914;
-}
-
-.skill {
-    background: #151515;
-    border: 1px solid #333;
-}
-
-.skill:hover {
-    border-color: #e50914;
-    box-shadow: 0 0 15px rgba(229, 9, 20, 0.3);
-}
-
-.skill h3 {
-    color: #e50914;
-}
-#projects {
-    background: #0f0f0f;
-    color: white;
-}
-
-#projects h2 {
-    color: #e50914;
-}
-
-.project {
-    background: #151515;
-    border: 1px solid #333;
-}
-
-.project:hover {
-    border-color: #e50914;
-    box-shadow: 0 0 15px rgba(229, 9, 20, 0.3);
-}
-
-.project h3 {
-    color: #e50914;
-}
-#home {
-    background: #0b0b0b;
-    color: white;
-}
-
-#home h1 {
-    color: #e50914;
-}
-
-#home button {
-    background: #e50914;
-    color: white;
-}
-
-#home button:hover {
-    background: #b00000;
-    box-shadow: 0 0 15px rgba(229, 9, 20, 0.5);
-}
-nav {
+    align-items: center;
+    gap: 25px;
+    padding: 15px;
     background: #050505;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #e50914;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
-
 nav a {
     color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
     transition: 0.3s;
 }
-
 nav a:hover {
     color: #e50914;
+    text-shadow: 0 0 10px #e50914;
+}
+/* =========================
+   HOME
+   ========================= */
+#home {
+    padding: 100px 20px;
+    background: #0b0b0b;
+}
+#home h1 {
+    margin-bottom: 15px;
+    color: #e50914;
+    font-size: 50px;
+}
+#home p {
+    font-size: 18px;
+    margin-bottom: 25px;
 }
 .subtitle {
     color: #e50914;
@@ -423,6 +69,58 @@ nav a:hover {
     color: #ccc;
     line-height: 1.6;
 }
+.scroll-hint {
+    margin-top: 35px;
+    color: #888;
+    font-size: 14px;
+    animation: bounce 1.5s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(8px);
+    }
+}
+/* =========================
+   BUTTONS
+   ========================= */
+button,
+.btn,
+.projects-button {
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+button {
+    background: #e50914;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+button:hover {
+    background: #b00000;
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(229, 9, 20, 0.5);
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #e50914;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #b20710;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #e50914;
+}
 .projects-button {
     display: inline-block;
     padding: 13px 25px;
@@ -434,13 +132,15 @@ nav a:hover {
     font-weight: bold;
     transition: 0.3s;
 }
-
 .projects-button:hover {
     background: #e50914;
     color: white;
     box-shadow: 0 0 15px rgba(229, 9, 20, 0.5);
     transform: translateY(-3px);
 }
+/* =========================
+   PROFILE IMAGE
+   ========================= */
 #home img {
     width: 220px;
     height: 220px;
@@ -453,92 +153,45 @@ nav a:hover {
     margin-top: 30px;
     transition: 0.3s;
 }
-
 #home img:hover {
     transform: scale(1.05);
     box-shadow: 0 0 35px rgba(229, 9, 20, 0.8);
 }
-.scroll-hint {
-    margin-top: 35px;
-    color: #888;
-    font-size: 14px;
-    animation: bounce 1.5s infinite;
-}
-
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(8px);
-    }
-}
-.project {
-    transition: 0.3s ease;
-}
-
-.project:hover {
-    transform: translateY(-8px) scale(1.02);
-}
-footer {
-    background: #050505;
-    color: #888;
-    border-top: 1px solid #333;
-}
-
-footer p {
-    margin: 0;
-}
-
-footer::first-letter {
-    color: #e50914;
-}
-footer {
-    box-shadow: 0 -3px 15px rgba(229, 9, 20, 0.25);
-}
-nav a:hover {
-    text-shadow: 0 0 10px #e50914;
-}
-nav a {
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: #e50914;
-    text-shadow: 0 0 10px #e50914;
-}
-nav {
+/* =========================
+   CONTACT BUTTONS
+   ========================= */
+.contact-buttons {
     display: flex;
     justify-content: center;
-    gap: 25px;
-    padding: 15px;
+    gap: 15px;
+    margin: 25px 0 35px;
+    flex-wrap: wrap;
 }
-nav {
-    background-color: #111;
-    border-bottom: 1px solid #e50914;
-}
-.btn {
+.contact-buttons a {
     display: inline-block;
-    margin-top: 20px;
-    padding: 12px 25px;
-    background-color: #e50914;
+    padding: 12px 20px;
+    background: #e50914;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border: 1px solid #ff1a1a;
+    border-radius: 8px;
+    font-weight: bold;
     transition: 0.3s;
 }
-
-.btn:hover {
-    background-color: #b20710;
-    transform: scale(1.05);
-}
-.btn:hover {
+.contact-buttons a:hover {
+    background: #b00000;
     box-shadow: 0 0 15px #e50914;
+    transform: translateY(-3px);
 }
+/* =========================
+   ABOUT
+   ========================= */
 #about {
     padding: 80px 20px;
     text-align: center;
+    background: #0f0f0f;
+    color: white;
+    border-bottom: 1px solid #333;
 }
 #about h2 {
     color: #e50914;
@@ -552,52 +205,91 @@ nav {
     color: #ccc;
     font-size: 17px;
 }
-#about {
-    border-bottom: 1px solid #333;
+/* =========================
+   SKILLS
+   ========================= */
+#skills {
+    padding: 80px 20px;
+    background: #0b0b0b;
+    color: white;
 }
+#skills h2 {
+    color: #e50914;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.skill {
+    width: 200px;
+    padding: 20px;
+    background: #151515;
+    border: 1px solid #333;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.skill:hover {
+    transform: translateY(-5px);
+    border-color: #e50914;
+    box-shadow: 0 0 15px rgba(229, 9, 20, 0.3);
+}
+.skill h3 {
+    color: #e50914;
+}
+.skill p {
+    color: #ccc;
+    line-height: 1.6;
+}
+/* =========================
+   PROJECTS
+   ========================= */
 #projects {
     padding: 80px 20px;
     text-align: center;
+    background: #0f0f0f;
+    color: white;
 }
-
 #projects h2 {
     color: #e50914;
     font-size: 32px;
     margin-bottom: 30px;
 }
-.project-card {
-    background-color: #111;
-    padding: 25px;
+.project {
+    max-width: 500px;
     margin: 20px auto;
-    max-width: 600px;
-    border-radius: 10px;
+    padding: 20px;
+    background: #151515;
     border: 1px solid #333;
+    border-radius: 10px;
     transition: 0.3s;
 }
-.project-card:hover {
-    transform: translateY(-8px);
+.project:hover {
+    transform: translateY(-8px) scale(1.02);
     border-color: #e50914;
     box-shadow: 0 0 15px #e50914;
 }
-.project-card h3 {
+.project h3 {
     color: #e50914;
-    font-size: 24px;
     margin-bottom: 10px;
 }
-.project-card p {
+.project p {
     color: #ccc;
     line-height: 1.6;
-    font-size: 16px;
 }
-#projects .project-card {
-    margin-bottom: 25px;
-}
+/* =========================
+   CONTACT FORM
+   ========================= */
 #contact {
     padding: 80px 20px;
     text-align: center;
+    background: #0b0b0b;
+    color: white;
     border-top: 1px solid #333;
 }
-
 #contact h2 {
     color: #e50914;
     font-size: 32px;
@@ -607,59 +299,144 @@ nav {
     color: #ccc;
     font-size: 17px;
     line-height: 1.8;
-    margin-bottom: 15px;
 }
-/* Make the website easier to read on phones */
-@media (max-width: 600px) {
-
+#contact form {
+    max-width: 500px;
+    margin: auto;
+}
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background: #151515;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+#contact textarea {
+    height: 120px;
+}
+#contact input::placeholder,
+#contact textarea::placeholder {
+    color: #999;
+}
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #e50914;
+    outline: none;
+    box-shadow: 0 0 8px rgba(229, 9, 20, 0.4);
+}
+#contact button {
+    background: #e50914;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+/* =========================
+   FOOTER
+   ========================= */
+footer {
+    padding: 25px;
+    margin-top: 20px;
+    background: #050505;
+    color: #888;
+    border-top: 1px solid #333;
+    box-shadow: 0 -3px 15px rgba(229, 9, 20, 0.25);
+}
+footer p {
+    margin: 0;
+}
+/* =========================
+   PHONE VERSION
+   ========================= */
+@media screen and (max-width: 600px) {
     body {
-        font-size: 22px;
+        font-size: 18px;
     }
-
+    nav {
+        gap: 8px;
+        padding: 12px 5px;
+        flex-wrap: wrap;
+    }
     nav a {
-        font-size: 20px;
+        font-size: 17px;
+        margin: 0;
+        padding: 6px 4px;
     }
-
+    #home {
+        padding: 80px 18px;
+    }
     #home h1 {
-        font-size: 50px;
+        font-size: 42px;
+        line-height: 1.15;
     }
-
-    #home p,
-    #about p,
-    #contact p,
-    .project p,
-    .skill p {
-        font-size: 22px;
-        line-height: 1.8;
+    #home p {
+        font-size: 19px;
+        line-height: 1.7;
     }
-
-    h2,
+    .subtitle {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+    .intro {
+        font-size: 19px;
+        line-height: 1.7;
+    }
+    #home img {
+        width: 190px;
+        height: 190px;
+    }
+    .btn,
+    button,
+    .projects-button {
+        font-size: 18px;
+        padding: 14px 20px;
+    }
+    .contact-buttons {
+        gap: 10px;
+    }
+    .contact-buttons a {
+        font-size: 17px;
+        padding: 13px 15px;
+    }
+    #about,
+    #skills,
+    #projects,
+    #contact {
+        padding: 60px 18px;
+    }
     #about h2,
     #skills h2,
     #projects h2,
     #contact h2 {
-        font-size: 40px;
+        font-size: 34px;
     }
-
-    h3 {
-        font-size: 28px;
+    #about p,
+    #contact p,
+    .project p,
+    .skill p {
+        font-size: 18px;
+        line-height: 1.8;
     }
-
-    .btn,
-    button,
-    .projects-button {
-        font-size: 21px;
-        padding: 17px 26px;
+    .skill {
+        width: 100%;
+        max-width: 320px;
     }
-
-    .contact-buttons a {
-        font-size: 20px;
-        padding: 16px 20px;
+    .project {
+        width: 100%;
     }
-
-    input,
-    textarea {
-        font-size: 21px;
-        padding: 16px;
+    #contact input,
+    #contact textarea {
+        font-size: 18px;
+        padding: 14px;
+    }
+    #contact textarea {
+        height: 150px;
     }
 }
