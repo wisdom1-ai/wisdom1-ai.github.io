@@ -609,31 +609,39 @@ nav {
     line-height: 1.8;
     margin-bottom: 15px;
 }
-.hero {
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 40px 20px;
-}
-
-.hero h1 {
-    font-size: 50px;
-    margin-bottom: 15px;
-}
-
-.hero p {
-    font-size: 20px;
-    color: #aaa;
-    max-width: 600px;
-}
-
-.hero .btn {
-    margin-top: 25px;
-    padding: 12px 25px;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
+/* Make the website easier to read on phones */
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    nav a {
+        font-size: 17px;
+        padding: 8px;
+    }
+    .btn,
+    button {
+        font-size: 18px;
+        padding: 14px 22px;
+    }
+    input,
+    textarea {
+        font-size: 18px;
+        padding: 14px;
+    }
+    textarea {
+        min-height: 150px;
+    }
 }
