@@ -1,61 +1,136 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>WISDOM TECH | Future Computer Engineer</title>
-<meta name="description" content="WISDOM TECH is the personal website of a Computer Science student and future Computer Engineer, showcasing web development, programming, computer science projects, and technical skills.">
-<meta name="keywords" content="WISDOM TECH, Wisdom Tech, Computer Science, Computer Engineering, Web Development, Programming, HTML, CSS, JavaScript">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>WISDOM TECH | Future Computer Engineer</title>
+
+    <meta name="description" content="WISDOM TECH is the personal website of a Computer Science student and future Computer Engineer.">
+
+    <meta name="keywords" content="WISDOM TECH, Computer Science, Computer Engineering, Web Development, Programming, HTML, CSS, JavaScript">
+
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+
+<nav>
+    <div class="logo">WISDOM TECH</div>
+
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="menu">☰</div>
 </nav>
-<section id="home">
-    <h1>WISDOM TECH</h1>
-<p class="scroll-hint">Scroll down to explore ↓</p>
-<p class="subtitle">Computer Science Student • Future Computer Engineer</p>
-    <p>Hi, I'm Wisdom, a Lower Sixth student passionate about Computer Science and technology.</p>
-<p class="intro">
-    I enjoy learning technology, building websites, and creating new things with code.
-</p>
-<a href="#projects" class="projects-button">View My Projects</a>
-<div class="scroll-hint">Scroll Down ↓</div>
-<a href="#about" class="btn">Learn More</a>
-    <button onclick="sayHello()">Say Hello</button>
-<div class="contact-buttons">
-    <a href="tel:+237683975989">📞 Call Me</a>
-    <a href="https://wa.me/237683975989" target="_blank">💬 WhatsApp Me</a>
-    <a href="mailto:kelechiwisdom19950@gmail.com">📧 Email Me</a>
-</div>
-<img src="profile.jpg" alt="My Picture">
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="welcome">WELCOME TO MY WEBSITE</p>
+
+        <h1>
+            WISDOM <span>TECH</span>
+        </h1>
+
+        <h2>
+            Computer Science Student
+            <br>
+            <span>Future Computer Engineer</span>
+        </h2>
+
+        <p class="hero-text">
+            Hi, I'm Wisdom. I am passionate about Computer Science,
+            technology, programming, and building amazing things with code.
+        </p>
+
+        <p class="hero-small">
+            I enjoy learning technology, building websites,
+            and creating new projects.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="main-button">
+                View My Projects
+            </a>
+
+            <a href="#about" class="outline-button">
+                Learn More
+            </a>
+
+        </div>
+
+        <div class="contact-buttons">
+
+            <a href="tel:+237683975989">
+                📞 Call Me
+            </a>
+
+            <a href="https://wa.me/237683975989" target="_blank">
+                💬 WhatsApp Me
+            </a>
+
+            <a href="mailto:kelechiwisdom19950@gmail.com">
+                📧 Email Me
+            </a>
+
+        </div>
+
+        <img
+            src="profile.jpg"
+            alt="Wisdom"
+            class="profile-picture"
+        >
+
+    </div>
+
 </section>
+
+
+<!-- ================= ABOUT ================= -->
+
 <section id="about">
+
     <h2>About Me</h2>
 
-<p>
-    My name is Wisdom. I am a student in lowersixth learning Computer Science,
-    programming, web development, and technology, and I am working hard
-to develop my skills as I prepare for my future career in Computer Engineering.
-</p>
-<p>
- My goal is to become a
-    computer engineer in the future.
-</p>
-</section>
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>You can contact me through my website.</p>
+    <p class="section-text">
+        My name is Wisdom. I am a Lower Sixth student learning
+        Computer Science, programming, web development, and technology.
+    </p>
 
-    <button onclick="sayHello()">Contact Me</button>
+    <p class="section-text">
+        I am working hard to develop my skills and prepare
+        for my future career in Computer Engineering.
+    </p>
+
+    <p class="section-text">
+        My goal is to become a successful Computer Engineer
+        and build useful technology in the future.
+    </p>
+
 </section>
+
+
+<!-- ================= SKILLS ================= -->
+
 <section id="skills">
+
     <h2>My Skills</h2>
 
     <div class="skills-container">
+
         <div class="skill">
             <h3>HTML</h3>
             <p>Building the structure of websites.</p>
@@ -63,7 +138,7 @@ to develop my skills as I prepare for my future career in Computer Engineering.
 
         <div class="skill">
             <h3>CSS</h3>
-            <p>Designing and styling websites.</p>
+            <p>Designing and styling modern websites.</p>
         </div>
 
         <div class="skill">
@@ -75,42 +150,106 @@ to develop my skills as I prepare for my future career in Computer Engineering.
             <h3>Computer Science</h3>
             <p>Learning programming and problem solving.</p>
         </div>
+
     </div>
+
 </section>
+
+
+<!-- ================= PROJECTS ================= -->
+
 <section id="projects">
+
     <h2>My Projects</h2>
 
-    <div class="project">
-        <h3>My First Website</h3>
-        <p>This is my first website built with HTML, CSS, and JavaScript.</p>
+    <div class="projects-container">
+
+        <div class="project">
+            <h3>My First Website</h3>
+
+            <p>
+                My first website built using HTML,
+                CSS, and JavaScript.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Computer Science Project</h3>
+
+            <p>
+                Small programming projects that I create
+                while learning Computer Science.
+            </p>
+        </div>
+
     </div>
 
-    <div class="project">
-        <h3>Computer Science Project</h3>
-        <p>I am learning programming and building small projects.</p>
-    </div>
 </section>
+
+
+<!-- ================= CONTACT ================= -->
+
 <section id="contact">
+
     <h2>Contact Me</h2>
-    <p>You can contact me using the form below.</p>
 
-    <form>
-        <label>Name:</label>
-        <input type="text" placeholder="Enter your name">
+    <p class="section-text">
+        Have a question or want to contact me?
+        Send me a message below.
+    </p>
 
-        <label>Email:</label>
-        <input type="email" placeholder="Enter your email">
+    <form
+        action="https://formspree.io/f/meaqbqrv"
+        method="POST"
+    >
 
-        <label>Message:</label>
-        <textarea placeholder="Write your message"></textarea>
+        <label>Name</label>
 
-        <button type="submit">Send Message</button>
+        <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+        >
+
+        <label>Email</label>
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+        >
+
+        <label>Message</label>
+
+        <textarea
+            name="message"
+            placeholder="Write your message"
+            required
+        ></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
     </form>
+
 </section>
+
+
+<!-- ================= FOOTER ================= -->
+
 <footer>
-    <p>© 2026 My Website. All rights reserved.</p>
+
+    <p>
+        © 2026 WISDOM TECH. All rights reserved.
+    </p>
+
 </footer>
 
+
 <script src="script.js"></script>
+
 </body>
 </html>
