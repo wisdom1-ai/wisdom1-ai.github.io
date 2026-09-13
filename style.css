@@ -611,37 +611,55 @@ nav {
 }
 /* Make the website easier to read on phones */
 @media (max-width: 600px) {
+
     body {
-        font-size: 18px;
+        font-size: 22px;
     }
-    h1 {
-        font-size: 36px;
-    }
-    h2 {
-        font-size: 30px;
-    }
-    h3 {
-        font-size: 24px;
-    }
-    p {
-        font-size: 18px;
-        line-height: 1.7;
-    }
+
     nav a {
-        font-size: 17px;
-        padding: 8px;
+        font-size: 20px;
     }
+
+    #home h1 {
+        font-size: 50px;
+    }
+
+    #home p,
+    #about p,
+    #contact p,
+    .project p,
+    .skill p {
+        font-size: 22px;
+        line-height: 1.8;
+    }
+
+    h2,
+    #about h2,
+    #skills h2,
+    #projects h2,
+    #contact h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
     .btn,
-    button {
-        font-size: 18px;
-        padding: 14px 22px;
+    button,
+    .projects-button {
+        font-size: 21px;
+        padding: 17px 26px;
     }
+
+    .contact-buttons a {
+        font-size: 20px;
+        padding: 16px 20px;
+    }
+
     input,
     textarea {
-        font-size: 18px;
-        padding: 14px;
-    }
-    textarea {
-        min-height: 150px;
+        font-size: 21px;
+        padding: 16px;
     }
 }
