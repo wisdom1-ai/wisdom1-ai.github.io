@@ -1,6 +1,6 @@
-/* =========================
-   MOBILE MENU
-   ========================= */
+/* ==========================================
+   WISDOM TECH — MOBILE MENU
+   ========================================== */
 
 function toggleMenu() {
 
@@ -11,13 +11,13 @@ function toggleMenu() {
 }
 
 
-/* =========================
-   CLOSE MENU AFTER CLICKING
-   ========================= */
+/* ==========================================
+   CLOSE MENU WHEN LINK IS CLICKED
+   ========================================== */
 
-const links = document.querySelectorAll(".nav-links a");
+const navLinks = document.querySelectorAll(".nav-links a");
 
-links.forEach(function(link) {
+navLinks.forEach(function(link) {
 
     link.addEventListener("click", function() {
 
