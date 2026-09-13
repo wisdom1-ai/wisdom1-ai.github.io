@@ -1,13 +1,30 @@
-function sayHello() {
-    alert("Hello! Welcome to my website!");
+/* =========================
+   MOBILE MENU
+   ========================= */
+
+function toggleMenu() {
+
+    const menu = document.querySelector(".nav-links");
+
+    menu.classList.toggle("active");
+
 }
 
-const form = document.querySelector("#contact form");
 
-form.addEventListener("submit", function(event) {
-    event.preventDefault();
+/* =========================
+   CLOSE MENU AFTER CLICKING
+   ========================= */
 
-    alert("Thank you! Your message has been received.");
+const links = document.querySelectorAll(".nav-links a");
 
-    form.reset();
+links.forEach(function(link) {
+
+    link.addEventListener("click", function() {
+
+        document
+            .querySelector(".nav-links")
+            .classList.remove("active");
+
+    });
+
 });

@@ -1,98 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>WISDOM TECH | Future Computer Engineer</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <meta name="description" content="WISDOM TECH is the personal website of a Computer Science student and future Computer Engineer.">
+    <title>WISDOM TECH | Computer Engineer</title>
 
-    <meta name="keywords" content="WISDOM TECH, Computer Science, Computer Engineering, Web Development, Programming, HTML, CSS, JavaScript">
+    <meta
+        name="description"
+        content="WISDOM TECH — Computer Science student, web developer and future Computer Engineer."
+    >
 
-    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="stylesheet" href="style.css?v=3">
 </head>
 
 <body>
 
-<!-- ================= NAVIGATION ================= -->
+<!-- ================= NAVBAR ================= -->
 
-<nav>
-    <div class="logo">WISDOM TECH</div>
+<header class="navbar">
 
-    <div class="nav-links">
+    <a href="#home" class="logo">
+        WISDOM<span>TECH</span>
+    </a>
+
+    <nav class="nav-links">
+
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
+        <a href="#projects">Work</a>
         <a href="#contact">Contact</a>
-    </div>
 
-    <div class="menu">☰</div>
-</nav>
+        <a href="#contact" class="nav-talk">
+            Let's Talk ↗
+        </a>
+
+    </nav>
+
+    <!-- MOBILE MENU -->
+
+    <button
+        class="menu-button"
+        onclick="toggleMenu()"
+        aria-label="Open menu"
+    >
+        ☰
+    </button>
+
+</header>
 
 
 <!-- ================= HERO ================= -->
+
+<main>
 
 <section id="home" class="hero">
 
     <div class="hero-content">
 
-        <p class="welcome">WELCOME TO MY WEBSITE</p>
+        <p class="eyebrow">
+            COMPUTER SCIENCE • TECHNOLOGY • FUTURE
+        </p>
 
         <h1>
-            WISDOM <span>TECH</span>
+            I'm <span>Wisdom.</span>
+            <br>
+            I build with technology.
         </h1>
 
         <h2>
-            Computer Science Student
-            <br>
-            <span>Future Computer Engineer</span>
+            Computer Science Student &
+            <strong>Future Computer Engineer</strong>
         </h2>
 
-        <p class="hero-text">
-            Hi, I'm Wisdom. I am passionate about Computer Science,
-            technology, programming, and building amazing things with code.
-        </p>
-
-        <p class="hero-small">
-            I enjoy learning technology, building websites,
-            and creating new projects.
+        <p class="hero-description">
+            I am passionate about technology, programming,
+            web development, and creating digital experiences
+            that make a difference.
         </p>
 
         <div class="hero-buttons">
 
-            <a href="#projects" class="main-button">
-                View My Projects
+            <a href="#projects" class="primary-button">
+                Explore My Work ↗
             </a>
 
-            <a href="#about" class="outline-button">
-                Learn More
+            <a href="#about" class="secondary-button">
+                About Me
             </a>
 
         </div>
 
-        <div class="contact-buttons">
+        <div class="quick-contact">
 
             <a href="tel:+237683975989">
-                📞 Call Me
+                📞 Call
             </a>
 
-            <a href="https://wa.me/237683975989" target="_blank">
-                💬 WhatsApp Me
+            <a
+                href="https://wa.me/237683975989"
+                target="_blank"
+            >
+                💬 WhatsApp
             </a>
 
             <a href="mailto:kelechiwisdom19950@gmail.com">
-                📧 Email Me
+                ✉ Email
             </a>
 
         </div>
+
+    </div>
+
+
+    <!-- PROFILE -->
+
+    <div class="hero-image">
+
+        <div class="image-glow"></div>
 
         <img
             src="profile.jpg"
             alt="Wisdom"
-            class="profile-picture"
         >
+
+        <div class="image-label">
+            <span class="status-dot"></span>
+            Learning • Building • Growing
+        </div>
 
     </div>
 
@@ -101,55 +142,121 @@
 
 <!-- ================= ABOUT ================= -->
 
-<section id="about">
+<section id="about" class="section about">
 
-    <h2>About Me</h2>
+    <div class="section-heading">
 
-    <p class="section-text">
-        My name is Wisdom. I am a Lower Sixth student learning
-        Computer Science, programming, web development, and technology.
-    </p>
+        <p class="eyebrow">
+            01 — ABOUT ME
+        </p>
 
-    <p class="section-text">
-        I am working hard to develop my skills and prepare
-        for my future career in Computer Engineering.
-    </p>
+        <h2>
+            Turning curiosity<br>
+            into <span>technology.</span>
+        </h2>
 
-    <p class="section-text">
-        My goal is to become a successful Computer Engineer
-        and build useful technology in the future.
-    </p>
+    </div>
+
+    <div class="about-content">
+
+        <p>
+            My name is Wisdom. I am a Lower Sixth student
+            passionate about Computer Science, programming,
+            web development, and technology.
+        </p>
+
+        <p>
+            I enjoy learning how technology works and using
+            what I learn to build websites and digital projects.
+            Every project gives me an opportunity to improve
+            my skills and think creatively.
+        </p>
+
+        <p>
+            My long-term goal is to become a Computer Engineer
+            and use technology to create useful solutions
+            for the future.
+        </p>
+
+    </div>
 
 </section>
 
 
 <!-- ================= SKILLS ================= -->
 
-<section id="skills">
+<section id="skills" class="section skills">
 
-    <h2>My Skills</h2>
+    <div class="section-heading">
 
-    <div class="skills-container">
+        <p class="eyebrow">
+            02 — WHAT I DO
+        </p>
 
-        <div class="skill">
+        <h2>
+            Skills I'm<br>
+            <span>building.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+        <article class="skill-card">
+
+            <span class="number">01</span>
+
             <h3>HTML</h3>
-            <p>Building the structure of websites.</p>
-        </div>
 
-        <div class="skill">
+            <p>
+                Creating clean and structured
+                website layouts.
+            </p>
+
+        </article>
+
+
+        <article class="skill-card">
+
+            <span class="number">02</span>
+
             <h3>CSS</h3>
-            <p>Designing and styling modern websites.</p>
-        </div>
 
-        <div class="skill">
+            <p>
+                Designing responsive and
+                modern user interfaces.
+            </p>
+
+        </article>
+
+
+        <article class="skill-card">
+
+            <span class="number">03</span>
+
             <h3>JavaScript</h3>
-            <p>Making websites interactive.</p>
-        </div>
 
-        <div class="skill">
+            <p>
+                Learning to create interactive
+                and dynamic websites.
+            </p>
+
+        </article>
+
+
+        <article class="skill-card">
+
+            <span class="number">04</span>
+
             <h3>Computer Science</h3>
-            <p>Learning programming and problem solving.</p>
-        </div>
+
+            <p>
+                Developing programming,
+                logic and problem-solving skills.
+            </p>
+
+        </article>
 
     </div>
 
@@ -158,29 +265,70 @@
 
 <!-- ================= PROJECTS ================= -->
 
-<section id="projects">
+<section id="projects" class="section projects">
 
-    <h2>My Projects</h2>
+    <div class="section-heading">
 
-    <div class="projects-container">
+        <p class="eyebrow">
+            03 — SELECTED WORK
+        </p>
 
-        <div class="project">
-            <h3>My First Website</h3>
+        <h2>
+            Things I've<br>
+            <span>built.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="projects-grid">
+
+        <article class="project-card">
+
+            <div class="project-top">
+                <span>01</span>
+                <span>HTML • CSS • JS</span>
+            </div>
+
+            <h3>
+                WISDOM TECH
+            </h3>
 
             <p>
-                My first website built using HTML,
-                CSS, and JavaScript.
+                My personal portfolio website where
+                I showcase my journey, skills and projects
+                in technology.
             </p>
-        </div>
 
-        <div class="project">
-            <h3>Computer Science Project</h3>
+            <a href="#home">
+                View Project ↗
+            </a>
+
+        </article>
+
+
+        <article class="project-card">
+
+            <div class="project-top">
+                <span>02</span>
+                <span>PROGRAMMING</span>
+            </div>
+
+            <h3>
+                Computer Science Projects
+            </h3>
 
             <p>
-                Small programming projects that I create
-                while learning Computer Science.
+                Small projects and experiments I build
+                while developing my programming and
+                problem-solving abilities.
             </p>
-        </div>
+
+            <a href="#contact">
+                Coming Soon ↗
+            </a>
+
+        </article>
 
     </div>
 
@@ -189,14 +337,26 @@
 
 <!-- ================= CONTACT ================= -->
 
-<section id="contact">
+<section id="contact" class="section contact">
 
-    <h2>Contact Me</h2>
+    <div class="contact-heading">
 
-    <p class="section-text">
-        Have a question or want to contact me?
-        Send me a message below.
-    </p>
+        <p class="eyebrow">
+            04 — CONTACT
+        </p>
+
+        <h2>
+            Let's build<br>
+            something <span>great.</span>
+        </h2>
+
+        <p>
+            Have a question, idea, or project?
+            Send me a message.
+        </p>
+
+    </div>
+
 
     <form
         action="https://formspree.io/f/meaqbqrv"
@@ -208,48 +368,61 @@
         <input
             type="text"
             name="name"
-            placeholder="Enter your name"
+            placeholder="Your name"
             required
         >
+
 
         <label>Email</label>
 
         <input
             type="email"
             name="email"
-            placeholder="Enter your email"
+            placeholder="Your email"
             required
         >
+
 
         <label>Message</label>
 
         <textarea
             name="message"
-            placeholder="Write your message"
+            placeholder="Tell me something..."
             required
         ></textarea>
 
+
         <button type="submit">
-            Send Message
+            Send Message ↗
         </button>
 
     </form>
 
 </section>
 
+</main>
+
 
 <!-- ================= FOOTER ================= -->
 
 <footer>
 
+    <div class="footer-logo">
+        WISDOM<span>TECH</span>
+    </div>
+
     <p>
+        Building my skills today. Creating technology for tomorrow.
+    </p>
+
+    <p class="copyright">
         © 2026 WISDOM TECH. All rights reserved.
     </p>
 
 </footer>
 
 
-<script src="script.js"></script>
+<script src="script.js?v=3"></script>
 
 </body>
 </html>
